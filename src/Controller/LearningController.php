@@ -9,7 +9,7 @@ class LearningController extends AbstractController
 {
     private $name;
     /**
-     * @Route("/learning", name="learning")
+     * @Route("/", name="learning")
      */
     public function aboutMe()
     {
